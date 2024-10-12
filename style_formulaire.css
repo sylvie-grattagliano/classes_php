@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#ebc3db, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    padding:0;
+    
+}
+
+
+
+.global-container-c {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px
+
+}
+.global-container-c {
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 80vh;
+
+
+}
+.global-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px
+
+}
+.global-container {
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100vh;
+
+
+}
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    
+    display: block;
+    margin-bottom: 5px;
+}
+
+/*input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}*/
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f9c2d4;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #f8a1b6;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.submit-btn {
+    cursor: pointer;
+    background-color: #ebc3db;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ebc3db;
+    height: 30px;
+    width: 260px;
+    margin-top: 10px;
+    background-color: #EBC3DB;
+    
+  }
+  .submit {
+    cursor: pointer;
+    background-color: #e26db3;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ebc3db;
+    height: 30px;
+    width: 260px;
+    margin-top: 10px;
+  }
+  .submit:hover {
+    background-color: #ebc3db;
+  }
+  .custom-label {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: black;
+    align-items: center;
+  }
+  .form-group input {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 30px;
+
+  }
+  

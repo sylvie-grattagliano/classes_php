@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*style index */
+
+    body {
+        background: linear-gradient(#ebc3db, #fff);
+        background-repeat: no-repeat;
+        width: 100vW;
+        height: 100vh;
+      }
+      
+h1 {
+  color: #111111;
+  text-align: center;
+}
+.text {
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px auto; /* Centre le conteneur horizontalement */
+    background-color: #f9f9f9;
+ 
+}
+/* .global-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #700eb1;
+  } */
+  .box {
+    width: 900px;
+    padding: 20px;  
+    margin-left: 10%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* text-align: center; */
+}
+.container {
+  width: 700px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto; /* Centre le conteneur horizontalement */
+  background-color: #f9f9f9;
+ 
+
+  
+}
+
+.content {
+  /* margin-top: 20px;
+    width: 900px;
+    text-align: center;
+    background-color: #fff;  */
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.content p {
+  margin-bottom: 15px;
+}
+.content a {
+  color: #c0446d;
+  text-decoration: none;
+  align-items: center;
+}
+.content a:hover {
+  text-decoration: underline;
+}
+ul {
+
+    list-style-type: none;
+}
+/* style users tableau*/
+
+#section1 {
+  padding: 20px;
+  background-color: #fce4ec;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  display: flex;
+}
+
+table {
+  width: 50%;
+  background-color: #fff0f5;
+  border: 2px solid #d81b60;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #f06292;
+  font-size: 12px;
+}
+
+thead {
+  background-color: #f8bbd0;
+  color: #d81b60;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #ecb7c9;
+  transition: background-color 0.3s ease;
+}
+
+/* style navbar*/
+
+nav {
+  background-color: #fce4ec;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: rgb(40, 26, 26);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+nav ul li a:hover {
+  background-color: #dfafd8;
+}
+/* style formulaire */
+.submit-btn {
+    cursor: pointer;
+    background-color: #ebc3db;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ebc3db;
+    height: 30px;
+    width: 260px;
+    margin-top: 10px;
+    margin-left: 54px;
+  }
+
+  /* .message-container {
+    background-color: #fff;
+    height: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+  } */
+  .container {
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto; /* Centre le conteneur horizontalement */
+    background-color: #f9f9f9;
+   
+  
+    
+  }
+  
