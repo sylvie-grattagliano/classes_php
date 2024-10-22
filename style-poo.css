@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*style index */
+  
+      body {
+          background: linear-gradient(#ebc3db, #fff);
+          background-repeat: no-repeat;
+          width: 100vW;
+          height: 100vh;
+        }
+        
+  h1 {
+    color: #111111;
+    text-align: center;
+  }
+  .text {
+      width: 600px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 15px;
+      margin: 20px auto; /* Centre le conteneur horizontalement */
+      background-color: #f9f9f9;
+   
+  }
+  .code {
+
+    background-color: rgb(202, 190, 190);
+    text-align: auto;
+    text-decoration: none;
+    font-size: 16px;
+    list-style-type: none;
+    
+  }

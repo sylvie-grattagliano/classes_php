@@ -25,15 +25,7 @@ h1 {
     background-color: #f9f9f9;
  
 }
-/* .global-container {
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    background-color: #700eb1;
-  } */
+
   .box {
     width: 900px;
     padding: 20px;  
@@ -174,14 +166,28 @@ nav ul li a:hover {
     border-radius: 30px;
   } */
   .container {
-    width: 700px;
+    width: 800px;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 15px;
     margin: 20px auto; /* Centre le conteneur horizontalement */
     background-color: #f9f9f9;
-   
-  
-    
+        
   }
+  /*style video*/
+  .container-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  .content-iframe {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px; /* Pour ajouter un petit espace au-dessus si nécessaire */
+  }
+  
+  
+  
   

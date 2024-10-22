@@ -3,6 +3,7 @@
 require_once("Users-pdo.php");
 require_once("navbar.php"); 
 
+
 $user = new Userspdo();
 $users = $user->getAllUsers();
 ?>
